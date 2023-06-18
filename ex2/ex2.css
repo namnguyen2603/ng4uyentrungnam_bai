@@ -1,0 +1,68 @@
+/* reset css */
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    outline: none;
+    }
+
+    @font-face {
+        font-family: 'Alfa Slab One';
+        src: url('../ex2/font/AlfaSlabOne-Regular.woff') format('woff2'),
+            url('../ex2/font/AlfaSlabOne-Regular.woff2') format('woff');
+        font-weight: normal;
+        font-style: normal;
+        font-display: swap;
+    }
+    
+    @font-face {
+        font-family: 'Bebas Neue';
+        src: url('../ex2/font/BebasNeue-Regular.woff') format('woff2'),
+            url('../ex2/font/BebasNeue-Regular.woff2') format('woff');
+        font-weight: normal;
+        font-style: normal;
+        font-display: swap;
+    }
+    
+    
+
+.form{
+    width: 600px;
+    height: 400px;
+    margin: 20px 20px;
+}
+
+.sub-title{
+    text-align: center  ;
+    font-family: Bebas Neue;
+    font-size: 30px;
+    padding-bottom: 25px;
+    color: rgb(60,41,26);
+}
+
+.title{
+    text-align: center;
+    font-family: Alfa Slab One;
+    font-size: 50px;
+    margin-bottom: 20px;
+    color: rgb(60,41,26);
+}
+
+input{
+    width: 270px;
+    font-family: Bebas Neue;
+    padding: 10px 30px;
+    margin: 5px 15px;
+    font-size: 20px;
+    color: rgb(60,41,26);
+}
+
+button{
+    width: 270px;
+    font-family: Alfa Slab One;
+    padding: 10px 30px;
+    margin: 5px 15px;
+    color: white;
+    background-color: rgb(175,51,43);
+    font-size: 15px;
+}
